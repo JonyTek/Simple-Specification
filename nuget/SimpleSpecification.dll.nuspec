@@ -2,7 +2,7 @@
 <package >
   <metadata>
   <title>Simple Specification</title>
-    <id>SimpleSpecification.dll</id>
+    <id>SimpleSpecification</id>
     <version>1.0.0</version>
     <authors>Jony Tek</authors>
     <owners>Jony Tek</owners>
