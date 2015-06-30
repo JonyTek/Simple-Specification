@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+  <title>Simple Specification</title>
+    <id>SimpleSpecification.dll</id>
+    <version>1.0.0</version>
+    <authors>Jony Tek</authors>
+    <owners>Jony Tek</owners>
+    <projectUrl>https://github.com/JonyTek/Simple-Specification</projectUrl>
+    <iconUrl>http://alpineservices.com/wordpress/wp-content/uploads/2014/11/specifications-283x300.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple C# implementation of the Specification pattern</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>C# Specification</tags>
+  </metadata>
+</package>
