@@ -22,14 +22,17 @@ public class Person
 Either use expressions or define unit testable specification classes
 
 ```csharp
+//Use expression syntax
 var spec = Specification<Person>.Where(p => p.Age > 10).Or(p => p.Approved);
 
 Assert.IsTrue(spec.IsSatisfiedBy(new Person {Age = 0, Approved = true}));
 
+//Use new syntx
 spec = Specification<Person>.Where(p => p.Age > 10).Or(new SomeSpecification());
 
 Assert.IsTrue(spec.IsSatisfiedBy(new Person {Age = 0}));
 
+//Use generic syntax
 spec = Specification<Person>.Where(p => p.Age > 10).Or<SomeSpecification>();
 
 Assert.IsTrue(spec.IsSatisfiedBy(new Person {Age = 0}));
@@ -77,7 +80,7 @@ public class Person : AbstractValidator<Person>
 ```
 
 ```csharp
-var  person = new Person {Age = 18, Approved = true, Suspended = false};
+var  person = new Person {Age = 18, Approved = true};
 
 Assert.IsTrue(person.IsValid);
 ```
@@ -124,3 +127,5 @@ public interface ISpecification<T>
 	ISpecification<T> OrNot(Func<T, bool> expression);
 }
 ```
+
+Enjoy and let me know what you think..
