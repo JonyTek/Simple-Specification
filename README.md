@@ -5,9 +5,11 @@ In computer programming, the specification pattern is a particular software desi
 
 There are a number of different syntaxes that can be used. The easiest and cleanest implementation follows although implementations can be found within the unit test project.
 
+### NuGet Packages
 
-#PM> Install-Package SimpleSpecification.dll
-
+```
+PM> Install-Package SimpleSpecification.dll
+```
 
 Usage
 Define a model class
