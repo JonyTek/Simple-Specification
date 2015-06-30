@@ -8,7 +8,7 @@ There are a number of different syntaxes that can be used. The easiest and clean
 ### NuGet Packages
 
 ```
-PM> Install-Package SimpleSpecification.dll
+PM> Install-Package SimpleSpecification
 ```
 
 Usage
